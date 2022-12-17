@@ -1,9 +1,14 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
+import { Box } from "native-base";
 
-export default function Page() {
+const Index = () => {
   return (
-    <View style={{ justifyContent: "center", alignItems: "center", flex: 1 }}>
-      <Text>Hello World</Text>
+    <View
+      style={{ justifyContent: "center", alignItems: "center", height: "100%" }}
+    >
+      <Box>This is a box</Box>
     </View>
   );
-}
+};
+
+export default Index;
