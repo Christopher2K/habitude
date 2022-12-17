@@ -1,9 +1,5 @@
-import { View, Text } from "react-native";
+import { Text } from '@ui-kitten/components'
 
 export const Home = () => {
-  return (
-    <View style={{ justifyContent: "center", alignItems: "center", flex: 1 }}>
-      <Text>Hello</Text>
-    </View>
-  );
+  return <Text>hellllo</Text>;
 };
